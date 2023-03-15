@@ -1,0 +1,31 @@
+.filter-item {
+  max-width: 110px;
+  max-height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:stretch;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.filter-item__name, .filter-item__action {
+  padding: 5px;
+}
+
+.filter-item__name {
+  background-color: hsl(180, 31%, 95%);
+  color: hsl(180, 29%, 50%);
+  height: 100%;
+}
+
+.filter-item__action {
+  background-color: hsl(180, 29%, 50%) ;
+  cursor: pointer;
+  max-height: 100%;
+}
+
+.filter-item__action img {
+  width: 10px;
+  height: 10px;
+}

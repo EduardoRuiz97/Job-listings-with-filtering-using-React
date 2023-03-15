@@ -1,0 +1,24 @@
+.main {
+  padding: 60px 25px;
+  min-height: 100vh;
+  background-color: hsl(180, 52%, 96%);
+}
+
+
+@media only screen and (min-width: 700px) {
+  .main {
+    padding: 60px 50px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .main {
+    padding: 60px 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main {
+    padding: 60px 150px;
+  }
+}

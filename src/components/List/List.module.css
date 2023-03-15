@@ -1,0 +1,7 @@
+.list-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 2.5rem;
+}

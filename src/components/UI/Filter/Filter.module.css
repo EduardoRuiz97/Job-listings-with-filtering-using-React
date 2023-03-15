@@ -1,0 +1,35 @@
+.filter-container {
+  width: 80%;
+  position: absolute;
+  bottom: -25px;
+  left: 10%;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 10px hsl(180, 29%, 50%,0.3);
+  border-radius: 3px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.clear {
+  cursor: pointer;
+  color: hsl(180, 14%, 20%);
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 700px) {
+  .filter-container {
+    width: 40%;
+    left: 30%;
+  }
+}
